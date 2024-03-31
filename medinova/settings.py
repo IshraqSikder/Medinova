@@ -34,13 +34,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 CORS_ALLOW_ALL_ORIGINS=True
 CSRF_COOKIE_NAME = 'csrftoken'
 
-CSRF_TRUSTED_ORIGINS = ['https://medinova.onrender.com','https://*.127.0.0.1']
-
-# CORS_ORIGIN_WHITELIST = (
-#     'http://localhost:8000',
-#     'http://127.0.0.1:5500',
-#     'https://f...content-available-to-author-only...r.com',
-# )
+CSRF_TRUSTED_ORIGINS = ['https://medinova-0zgf.onrender.com','https://*.127.0.0.1']
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8080",
